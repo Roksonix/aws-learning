@@ -1,3 +1,8 @@
+# URLs:
+- [Cloudfront](https://d1iqs0t6szhrp4.cloudfront.net)
+- [S3](https://aws-epam-task-volodymyr-vashchuk.s3.eu-north-1.amazonaws.com/index.html)
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
