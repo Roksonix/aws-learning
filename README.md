@@ -1,6 +1,6 @@
 # URLs:
-- [Cloudfront](https://d1iqs0t6szhrp4.cloudfront.net)
-- [S3](https://aws-epam-task-volodymyr-vashchuk.s3.eu-north-1.amazonaws.com/index.html)
+- [Cloudfront](https://di9vyxk1713jb.cloudfront.net)
+- [S3](https://learning-aws-second-try-please-dont-bill-me.s3.eu-west-1.amazonaws.com/index.html)
 
 
 # React-shop-cloudfront
