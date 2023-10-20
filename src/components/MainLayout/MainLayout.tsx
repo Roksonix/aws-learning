@@ -9,8 +9,8 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/" underline="hover">
-        My Store
+      <Link color="inherit" href="https://google.com/" underline="hover">
+        Luxor
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -37,7 +37,7 @@ const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           color="textSecondary"
           component="p"
         >
-          Thank you for your purchase!
+          Best books for best prices!
         </Typography>
         <Copyright />
       </Box>
