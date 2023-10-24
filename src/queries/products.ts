@@ -9,7 +9,7 @@ export function useAvailableProducts() {
     "available-products",
     async () => {
       const res = await axios.get<{ products: AvailableProduct[] }>(
-        `${API_PATHS.bff}/products/available`
+        `${API_PATHS.bff}/products`
       );
 
       return res.data.products;
@@ -30,7 +30,7 @@ export function useAvailableProduct(id?: string) {
     ["product", { id }],
     async () => {
       const res = await axios.get<AvailableProduct>(
-        `${API_PATHS.bff}/product/${id}`
+        `${API_PATHS.bff}/products/${id}`
       );
       return res.data;
     },
