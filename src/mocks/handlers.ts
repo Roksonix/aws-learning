@@ -9,9 +9,9 @@ export const handlers = [
   // rest.get(`${API_PATHS.bff}/product`, (req, res, ctx) => {
   //   return res(ctx.status(200), ctx.delay(), ctx.json<Product[]>(products));
   // }),
-  rest.put(`${API_PATHS.bff}/product`, (req, res, ctx) => {
-    return res(ctx.status(200));
-  }),
+  // rest.put(`${API_PATHS.bff}/product`, (req, res, ctx) => {
+  //   return res(ctx.status(200));
+  // }),
   rest.delete(`${API_PATHS.bff}/product/:id`, (req, res, ctx) => {
     return res(ctx.status(200));
   }),
